@@ -1,0 +1,44 @@
+a{
+    text-decoration: none;
+  }
+  
+  .sidebar{
+    background: #212121;
+    color: white;
+    height: 100vh;
+  }
+  
+  .routes {
+    color: white;
+  }
+  .top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+  }
+  
+  .logo{
+    font-size: 18px;
+    line-height: 0;
+  }
+  
+  .link {
+    display: flex;
+    color: #d4d3d3;
+    gap: 10px;
+    padding: 5px 10px;
+    border-right: 4px transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  
+  .link:hover {
+    border-right: 4px solid rgb(239, 235, 226);
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    background: #CC8E51;
+  }
+  
+  .link_text {
+    white-space: nowrap;
+    font-size: 10px;
+  }
